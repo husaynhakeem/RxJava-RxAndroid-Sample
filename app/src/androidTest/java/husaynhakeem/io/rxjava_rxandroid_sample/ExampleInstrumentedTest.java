@@ -1,4 +1,4 @@
-package husaynhakeem.io.android_retrofit2_sample;
+package husaynhakeem.io.rxjava_rxandroid_sample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("husaynhakeem.io.android_retrofit2_sample", appContext.getPackageName());
+        assertEquals("husaynhakeem.io.rxjava_rxandroid_sample", appContext.getPackageName());
     }
 }

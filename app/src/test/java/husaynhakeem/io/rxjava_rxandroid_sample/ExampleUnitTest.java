@@ -1,4 +1,4 @@
-package husaynhakeem.io.android_retrofit2_sample;
+package husaynhakeem.io.rxjava_rxandroid_sample;
 
 import org.junit.Test;
 

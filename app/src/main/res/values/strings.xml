@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Android-Retrofit2-Sample</string>
+    <string name="app_name">RxJava RxAndroid Sample</string>
+    <string name="debounce_et_hint">Search query</string>
+    <string name="debounce_btn_clear_list">Clear list</string>
 </resources>

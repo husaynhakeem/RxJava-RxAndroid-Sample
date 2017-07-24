@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/space_normal">
+
+    <TextView
+        android:id="@+id/tv_summary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_small"
+        android:text="@string/app_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_debounce"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/space_normal"
+        android:layout_marginRight="@dimen/space_normal"
+        android:layout_marginTop="@dimen/space_normal"
+        android:inputType="textPersonName"
+        android:hint="@string/debounce_et_hint"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_summary"
+        app:layout_constraintRight_toLeftOf="@+id/btn_clear_entries"
+        app:layout_constraintTop_toBottomOf="@+id/tv_summary" />
+
+    <Button
+        android:id="@+id/btn_clear_entries"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_normal"
+        android:text="@string/debounce_btn_clear_list"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_summary" />
+
+    <ListView
+        android:id="@+id/lv_entries"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_small"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_debounce" />
+
+</android.support.constraint.ConstraintLayout>
