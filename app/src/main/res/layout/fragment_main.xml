@@ -11,13 +11,13 @@
 
         <Button
             android:id="@+id/btn_edit_text_debounce"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/button_height"
-            android:background="@android:color/white"
-            android:gravity="start|center_vertical"
-            android:padding="@dimen/space_small"
-            android:text="Edit text debounce"
-            android:textAllCaps="false" />
+            style="@style/ChapterButtonStyle"
+            android:text="@string/edit_text_debounce_title" />
+
+        <Button
+            android:id="@+id/btn_text_view_double_binding"
+            style="@style/ChapterButtonStyle"
+            android:text="@string/text_view_double_binding_title" />
 
     </LinearLayout>
 

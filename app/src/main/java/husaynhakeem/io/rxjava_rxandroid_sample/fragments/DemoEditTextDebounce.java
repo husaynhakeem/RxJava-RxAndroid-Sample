@@ -75,6 +75,18 @@ public class DemoEditTextDebounce extends Fragment {
     }
 
 
+    private void addEntry(String entry) {
+        searchEntries.add(0, entry);
+
+        /*
+        The list "search entries" is linked to the adapter
+        So after updating the list, simple calling notifyDataSetChanged
+        will update the elements displayed in the list
+         */
+        debounceAdapter.notifyDataSetChanged();
+    }
+
+
     @OnClick(R.id.btn_clear_entries)
     public void clearEntriesList() {
         searchEntries.clear();
@@ -109,11 +121,5 @@ public class DemoEditTextDebounce extends Fragment {
                 .filter(changeEvent -> !TextUtils.isEmpty(changeEvent.text().toString()))
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeWith(observer);
-    }
-
-
-    private void addEntry(String entry) {
-        searchEntries.add(0, entry);
-        debounceAdapter.notifyDataSetChanged();
     }
 }

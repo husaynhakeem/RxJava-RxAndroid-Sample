@@ -11,6 +11,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.Unbinder;
 import husaynhakeem.io.rxjava_rxandroid_sample.fragments.DemoEditTextDebounce;
+import husaynhakeem.io.rxjava_rxandroid_sample.fragments.DemoTextViewDoubleBinding;
 
 /**
  * Created by husaynhakeem on 7/24/17.
@@ -41,6 +42,12 @@ public class MainFragment extends Fragment {
     @OnClick(R.id.btn_edit_text_debounce)
     public void debounceDemo() {
         switchFragment(new DemoEditTextDebounce());
+    }
+
+
+    @OnClick(R.id.btn_text_view_double_binding)
+    public void doubleBindingDemo() {
+        switchFragment(new DemoTextViewDoubleBinding());
     }
 
 

@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">RxJava RxAndroid Sample</string>
+
+    <!--Edit text Debounce-->
+    <string name="edit_text_debounce_title">Edit text debounce</string>
     <string name="debounce_et_hint">Search query</string>
     <string name="debounce_btn_clear_list">Clear list</string>
+
+    <!--Text view double binding-->
+    <string name="text_view_double_binding_title">Text view double binding</string>
+    <string name="double_binding_a">Value of \'a\'</string>
+    <string name="double_binding_b">Value of \'b\'</string>
+    <string name="double_binding_division_on_zero">Infinity.. If it exists..</string>
 </resources>
