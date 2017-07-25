@@ -76,15 +76,10 @@ public class DemoTextViewDoubleBinding extends Fragment {
 
 
     private void resultFrom(double a, double b) {
-
         if (a == 0)
-            publishProcessor.onNext(getString(R.string.double_binding_division_on_zero));
-        publishProcessor.onNext(String.valueOf((-b) / a));
-    }
-
-
-    private boolean isEmpty(String value) {
-        return TextUtils.isEmpty(String.valueOf(value));
+            publishProcessor.onNext(getString(R.string.double_debounce_result, getString(R.string.double_binding_division_on_zero)));
+        else
+            publishProcessor.onNext(getString(R.string.double_debounce_result, String.valueOf((-b) / a)));
     }
 
 

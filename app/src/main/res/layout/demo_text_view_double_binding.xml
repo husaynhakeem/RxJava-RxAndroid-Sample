@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/space_normal"
         android:padding="@dimen/space_small"
-        android:text="@string/app_name" />
+        android:text="@string/double_binding_summary" />
 
 
     <EditText
@@ -20,20 +20,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/double_binding_a"
-        android:inputType="numberDecimal" />
+        android:inputType="number" />
 
     <EditText
         android:id="@+id/et_double_binding_b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/double_binding_b"
-        android:inputType="numberDecimal" />
+        android:inputType="number" />
 
     <TextView
         android:id="@+id/tv_double_binding_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/space_normal"
+        android:layout_marginTop="@dimen/space_big"
+        android:textSize="16sp"
+        android:textStyle="bold"
         tools:text="@string/app_name" />
 
 </LinearLayout>

@@ -11,7 +11,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:padding="@dimen/space_small"
-        android:text="@string/app_name"
+        android:text="@string/debounce_summary"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,8 +23,8 @@
         android:layout_marginEnd="@dimen/space_normal"
         android:layout_marginRight="@dimen/space_normal"
         android:layout_marginTop="@dimen/space_normal"
-        android:inputType="textPersonName"
         android:hint="@string/debounce_et_hint"
+        android:inputType="textPersonName"
         app:layout_constraintLeft_toLeftOf="@+id/tv_summary"
         app:layout_constraintRight_toLeftOf="@+id/btn_clear_entries"
         app:layout_constraintTop_toBottomOf="@+id/tv_summary" />

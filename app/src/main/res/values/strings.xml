@@ -2,13 +2,14 @@
     <string name="app_name">RxJava RxAndroid Sample</string>
 
     <!--Edit text Debounce-->
-    <string name="edit_text_debounce_title">Edit text debounce</string>
+    <string name="debounce_summary">In this example, when you type in something in the text field below, what you entered will be displayed in a list underneath it. You\'ll end up with a list of all queries you\'ve entered.\nAn entry will be considered only when a certain timespan will have passed when you\'re typing.</string>
     <string name="debounce_et_hint">Search query</string>
     <string name="debounce_btn_clear_list">Clear list</string>
 
     <!--Text view double binding-->
-    <string name="text_view_double_binding_title">Text view double binding</string>
-    <string name="double_binding_a">Value of \'a\'</string>
-    <string name="double_binding_b">Value of \'b\'</string>
-    <string name="double_binding_division_on_zero">Infinity.. If it exists..</string>
+    <string name="double_binding_summary">This example resolves the equation "Ax + B = 0". When you enter the values of "A" and "B", the resulting value of "X" is instantaneously displayed underneath them.</string>
+    <string name="double_binding_a">Value of \'A\'</string>
+    <string name="double_binding_b">Value of \'B\'</string>
+    <string name="double_debounce_result">Result: %s</string>
+    <string name="double_binding_division_on_zero">Infinity.. -if it exists-</string>
 </resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Section titles-->
+    <string-array name="titles">
+        <item>Edit text debounce</item>
+        <item>Text view double binding</item>
+    </string-array>
+
+    <!--Section sub-titles-->
+    <string-array name="subTitles">
+        <item>Array Adapter, Disposable, DisposableObserver, TextViewTextChangeEvent, onNext(), onError(), onComplete(), debounce(), filter(), observeOn(), subscribeWith(), Lambda Expression, AndroidScheduler.mainThread()</item>
+        <item>Text view, PublishProcessor, Disposable, subscribe(), Lambda expressions, onNext()</item>
+    </string-array>
+</resources>
